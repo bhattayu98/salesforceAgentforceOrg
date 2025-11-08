@@ -14,5 +14,6 @@ public with sharing class workOnBehalfofFlow {
         List<Opportunity> oppList = [SELECT Id, Name FROM Opportunity LIMIT 10];
         System.debug('Opportunity List: ' + oppList);
     }
+    //Standard closing bracket
     
 }
